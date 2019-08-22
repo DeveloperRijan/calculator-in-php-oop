@@ -1,0 +1,47 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+
+.frontendView{
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.frontendView h3{
+	text-align: center;
+	padding-bottom: 30px
+}
+.myform input[type="number"]{
+	width: 100%;
+    padding: 5px 10px;
+    border: 1px solid lightgreen;
+}
+.myform .operator{
+	text-align: center;
+	margin: 5px 0;
+}
+.myform select{
+	width: 30%;
+    padding: 5px 10px;
+	border: 1px solid lightgreen;
+}
+.myform input[type="submit"]{
+	text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    background: green;
+    padding: 5px 15px;
+    font-weight: bold;
+    border: 2px solid #555;
+    cursor: pointer;
+    border-radius: 5px;
+	margin: 10px 0px 0px 0px;
+}
+
+.show_result{
+	text-align: center;
+    padding-bottom: 5px;
+}
